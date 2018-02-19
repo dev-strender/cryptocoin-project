@@ -1,5 +1,7 @@
 #! /bin/sh
 
-datadir=$HOME/cryptocoin-project/project1/node1
+gethdir=$HOME/geth-tools/
+datadir=$HOME/cryptocoin-project/project1/data
 
-geth --datadir $datadir --dev attatch ipc:$datadir/geth.ipc
+cd $gethdir
+./geth --datadir $datadir --dev attatch ipc:$datadir/geth.ipc
