@@ -61,4 +61,9 @@ CRIT [02-12|20:48:11] Failed to store last header's hash       err="leveldb: clo
 ## 02.17
 
 >> mkdir dapps/wallet
->> npm install web3
+>> npm install web3 --save
+>> npm install express --save 등등 필요한 패키지 설치해주어야 함.
+
+## 02.20
+일단 npm 설정이랑, miner 는 테스트 안해보기는 했는데 계정까지는 잘 만들어지는 것 확인.
+

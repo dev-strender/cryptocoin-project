@@ -1,5 +1,7 @@
 #! /bin/sh
 
+gethdir=$HOME/geth-tools/
 datadir=$HOME/cryptocoin-project/project1/data
 
-geth --datadir $datadir account new
+cd $gethdir
+./geth --datadir $datadir account new

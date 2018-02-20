@@ -1,3 +1,12 @@
 eth.accounts
 eth.getBalance(eth.accounts[0])
 eth.coinbase
+eth.accounts
+web3.eth.getCompilers();
+web3.eth
+web3.eth.getCompilers();
+eth.getCompilers();
+eth.accounts
+eth.getBalance(eth.accounts[1])
+eth.accounts
+exitr

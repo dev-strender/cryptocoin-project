@@ -9,4 +9,4 @@ datadir=$HOME/Projects/Ethereum/cryptocoin-project/project1/data
 
 cd $gethdir
 
-./geth --identity "TestNetwork" --datadir $datadir --port "30303" --rpc --rpcaddr 0.0.0.0 --rpcport "8123" --rpccorsdomain "*" --nodiscover --networkid 1900 --nat "any" --rpcapi "db,eth,web3,net,miner" console
+./geth --identity "TestNetwork" --datadir $datadir --port "3030" --rpc --rpcaddr 0.0.0.0 --rpcport "8123" --rpccorsdomain "*" --nodiscover --networkid 2525 --nat "any" --rpcapi "db,eth,web3,net,miner" console
