@@ -1,6 +1,18 @@
-=============== Feb 19, 2018 (UTC) ===============
-13:56:53.644670 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-13:56:53.648651 db@open opening
-13:56:53.649057 version@stat F·[] S·0B[] Sc·[]
-13:56:53.650854 db@janitor F·2 G·0
-13:56:53.650878 db@open done T·2.21223ms
+=============== Feb 20, 2018 (KST) ===============
+17:13:00.134407 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:13:00.218066 db@open opening
+17:13:00.218882 version@stat F·[] S·0B[] Sc·[]
+17:13:00.259889 db@janitor F·2 G·0
+17:13:00.259964 db@open done T·41.834318ms
+=============== Feb 20, 2018 (KST) ===============
+17:22:23.718672 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:22:23.718743 version@stat F·[] S·0B[] Sc·[]
+17:22:23.718749 db@open opening
+17:22:23.718781 journal@recovery F·1
+17:22:23.719220 journal@recovery recovering @1
+17:22:23.768942 memdb@flush created L0@2 N·11 S·730B "H\x8c\x10..\x98\rC,v5":"\xc0\x81\u007f..9\x93\x01,v2"
+17:22:23.770164 version@stat F·[1] S·730B[730B] Sc·[0.25]
+17:22:23.828268 db@janitor F·3 G·0
+17:22:23.828310 db@open done T·109.550553ms
+17:23:09.827711 db@close closing
+17:23:09.827788 db@close done T·74.698µs
